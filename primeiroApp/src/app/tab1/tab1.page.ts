@@ -7,6 +7,15 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
+  nome:string = "Gabriel Vitoretti";
   constructor() {}
+
+  ngOnInit(){
+    this.chamarNome()
+  }
+
+  chamarNome():void{
+    alert('Essa função foi chamada!')
+  }
 
 }

@@ -1,9 +1,10 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>alert</ion-title>
-  </ion-toolbar>
-</ion-header>
+<app-header [titulo] = "titulo || 'Página de Alerta'"> </app-header>
 
-<ion-content>
 
+
+<ion-content> 
+    <ion-button name="star" color="tertiary" expand="block" (click)="presentAlert()">Chamar Alerta</ion-button>
+    <ion-button name="star" color="medium" expand="block" (click)="presentAlertPrompt()">Chamar Entrada</ion-button>
+    <span>Notificações</span>
+    <ion-badge color="primary">12</ion-badge>
 </ion-content>

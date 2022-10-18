@@ -1,10 +1,19 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>inicio</ion-title>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <!-- <ion-button (click)="toggleMenu()">
+        <ion-icon slot="icon-only" name="menu"></ion-icon>
+      </ion-button> -->
+      <ion-menu-button menu="principal"></ion-menu-button>
+      
+    </ion-buttons>
+    <ion-title>Início</ion-title>
   </ion-toolbar>
 </ion-header>
 
+
 <ion-content>
+  
   <ion-button color="warning" expand="full" routerLink="/alert">Alert</ion-button>
   <ion-button color="danger" expand="block" routerLink="/action-sheet">Modal</ion-button>
   <ion-button shape="round">Round</ion-button>

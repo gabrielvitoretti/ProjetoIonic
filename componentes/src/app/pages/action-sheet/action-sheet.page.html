@@ -1,9 +1,31 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>action-sheet</ion-title>
-  </ion-toolbar>
-</ion-header>
+<app-header titulo = 'página modal'> </app-header>
+
 
 <ion-content>
 
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="schedule">
+        <ion-icon name="calendar"></ion-icon>
+        <ion-label>Schedule</ion-label>
+        <ion-badge>6</ion-badge>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="speakers">
+        <ion-icon name="person-circle"></ion-icon>
+        <ion-label>Speakers</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="home">
+        <ion-icon name="map"></ion-icon>
+        <ion-label>Inicio</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="alert">
+        <ion-icon name="information-circle"></ion-icon>
+        <ion-label>Alertas</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+  <ion-button name="star" color="success" (click)="presentActionSheet()">Chamar Modal</ion-button>
 </ion-content>

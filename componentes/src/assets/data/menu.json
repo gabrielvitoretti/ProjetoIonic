@@ -1,0 +1,42 @@
+[
+    {
+        "icone": "pricetags-outline",
+        "nome": "Alerta",
+        "link": "/alert"
+    },
+    {
+        "icone": "logo-apple",
+        "nome": "Modal",
+        "link": "/action-sheet"
+    },
+    {
+        "icone": "card-outline",
+        "nome": "Cards",
+        "link": "/cards"
+    },
+    {
+        "icone": "calendar-outline",
+        "nome": "Datas",
+        "link": "/datas"
+    },
+    {
+        "icone": "grid-outline",
+        "nome": "Grid",
+        "link": "/grid"
+    },
+    {
+        "icone": "hardware-chip-outline",
+        "nome": "Entrada",
+        "link": "/entradas"
+    },
+    {
+        "icone": "chatbox-ellipse-outline",
+        "nome": "Toast",
+        "link": "/toast"
+    },
+    {
+        "icone": "code-outline",
+        "nome": "Slides",
+        "link": "/slide"
+    }
+]
